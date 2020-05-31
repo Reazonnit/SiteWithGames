@@ -1,0 +1,82 @@
+body{
+    background-image: url("site-background.jpg");
+}
+
+#blog {
+    border: 5px solid #F8FF5C;
+    position: absolute;
+    left: 150px;
+    right: 150px;
+    top: 146px;
+    width: auto;
+    height: 900px;
+    background-color: ghostwhite;
+}
+
+#header{
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    background-image: url("for blog.jpg");
+    width: auto;
+    height: 125px;
+    border: 5px solid #F8FF5C;
+
+
+}
+
+#nameofsite{
+    font-size: 37px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+#footer{
+    border: 5px solid #F8FF5C;
+    position: absolute;
+    left: 150px;
+    right: 150px;
+    top: 1059px;
+    width: auto;
+    height: 200px;
+    background-image: url("for blog.jpg")
+}
+
+.butons{
+    width: 150px;
+    height: 50px;
+    border: 3px double black;
+    text-align: right;
+    font-size: large;
+    font-family: inherit;
+    padding: 5px;
+}
+
+.butons1{
+    position: absolute;
+    bottom: 1px;
+    width: 150px;
+    height: 50px;
+    margin-left: 1px;
+    margin-bottom: auto;
+    border: 3px double black;
+    text-align: right;
+    font-size: large;
+    font-family: inherit;
+    padding: 5px;
+}
+
+#reg{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+
+#user\ photo{
+    position: absolute;
+    left: 10px;
+    bottom: 19%;
+    width: 30px;
+    height: 30px;
+}
