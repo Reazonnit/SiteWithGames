@@ -12,6 +12,7 @@ body{
     height: 900px;
     background-image: url("background-site.jpg");
     filter: blur(3px) brightness(88%);
+    background-color: blanchedalmond;
 }
 
 #header{
