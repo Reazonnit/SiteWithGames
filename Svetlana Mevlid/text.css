@@ -1,0 +1,130 @@
+.add{
+    position: absolute;
+    top: 0px;
+    right: -60px;
+    width:150px;
+    height: 100%;
+    background-color:#333;
+}
+.aboutCyberpunk{
+    position: absolute;
+    top: 225px;
+    left: 450px;
+    width: 700px;
+    height: 322px;
+    background-color: #333;
+}
+.gallery {
+    list-style: none;
+    padding: 0;
+}
+.photo  {
+    position: absolute;
+    left: 1188px;
+    width: 200px;
+    top: -523px;
+    border: #333333;
+    padding: 1px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.photo1  {
+    position: absolute;
+    left: 1148px;
+    width: 200px;
+    top: -380px;
+    border: #333333;
+    padding: 1px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.gallery li {
+    position: relative;
+    width: 100px;
+}
+
+.gallery li div {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    top: -523px;
+    left: 1393px;
+    border: #333333;
+    padding: 10px;
+    border-radius: 0 10px 10px 10px;
+    -moz-border-radius: 0 10px 10px 10px;
+    -webkit-border-radius: 0 10px 10px 10px;
+    z-index: -5;
+    display: none;
+}
+
+.gallery li div img {
+    position: center;
+    width: 400px;
+    border: #333333;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.gallery li div p {
+    text-align: center;
+    font: 30px/16px Arial;
+
+}
+
+.gallery li:hover div {
+    display: block;
+    background: #333333;
+}
+
+.gallery li:hover .photo {
+    border: #333333;
+    background: #333333;
+    border-right: 0;
+}
+.gallery1 li {
+    position: relative;
+    width: 100px;
+}
+
+.gallery1 li div {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    top: -380px;
+    left: 1353px;
+    border: #333333;
+    padding: 10px;
+    border-radius: 0 10px 10px 10px;
+    -moz-border-radius: 0 10px 10px 10px;
+    -webkit-border-radius: 0 10px 10px 10px;
+    z-index: -5;
+    display: none;
+}
+
+.gallery1 li div img {
+    position: center;
+    width: 400px;
+    border: #333333;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.gallery1 li div p {
+    text-align: center;
+    font: 30px/16px Arial;
+
+}
+
+.gallery1 li:hover div {
+    display: block;
+    background: #333333;
+}
+
+.gallery1 li:hover .photo {
+    border: #333333;
+    background: #333333;
+    border-right: 0;
+}
