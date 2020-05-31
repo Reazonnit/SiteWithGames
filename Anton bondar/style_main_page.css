@@ -1,16 +1,17 @@
 body{
     background-image: url("site-background.jpg");
+    filter: brightness(85%);
 }
 
 #blog {
-    border: 5px solid #F8FF5C;
     position: absolute;
     left: 150px;
     right: 150px;
     top: 146px;
     width: auto;
     height: 900px;
-    background-color: ghostwhite;
+    background-image: url("background-site.jpg");
+    filter: blur(3px) brightness(88%);
 }
 
 #header{
@@ -21,6 +22,7 @@ body{
     width: auto;
     height: 125px;
     border: 5px solid #F8FF5C;
+    filter: brightness(90%)
 
 
 }
