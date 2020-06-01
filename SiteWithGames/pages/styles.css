@@ -1,0 +1,79 @@
+body {
+    background-image: url("../media/images/jpg/f0n.jpg");
+    max-width: 960px;
+    margin: 0 auto;
+}
+div {
+    border: 1px solid crimson;
+    padding: 5px 15px;
+}
+ h4 {
+     text-align: center;
+ }
+ .header {
+     border-radius: 10px 10px 0 0;
+     margin-top: 20px;
+     background-image: url("../media/images/png/fun.png");
+     min-height: 100px;
+     line-height: 100px;
+     text-align: center;
+     margin-bottom: 10px;
+     color: aliceblue;
+ }
+ .sidebar {
+     background-image: url("../media/images/png/sidebar-img.png");
+     float: left;
+     margin-right: 10px;
+     min-width:150px;
+     max-width: 200px;
+     color: beige;
+     padding: 510px 0px;
+     text-align: inherit ;
+
+ }
+.navbar {
+    overflow: hidden;
+    background-image: url("../media/images/png/sidebar-img.png") ;
+    padding: 10x 10px;
+    position: absolute;
+    width: 930px;
+    top: 180px;
+
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 10px;
+    border-radius: 4px;
+
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar a.active {
+    background-color: darkred;
+    color: white;
+}
+
+ .container {
+     background-image: url("../media/images/png/fun.png");
+     margin-bottom: 10px;
+     text-align: justify;
+     color: beige;
+ }
+ .footer {
+     font-weight: bold;
+     color: #FFFFFF;
+     min-height: 10px;
+     line-height: 10px;
+     border-radius: 0 0 10px 10px;
+     background-image: url("../media/images/png/fun.png");
+ }
